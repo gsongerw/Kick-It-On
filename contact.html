@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Contact Us | Kick It On Foundation</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-top: 0.25rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1>Kick It On Foundation</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="get-involved.html">Get Involved</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>
+                    Have questions about donating gear, volunteering, or partnering with us?
+                    Fill out the form below and we’ll get back to you.
+                </p>
+
+                <form action="#" method="GET">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="reason">Reason for Contact</label>
+                    <select id="reason" name="reason">
+                        <option value="donation">Donate Gear</option>
+                        <option value="volunteer">Volunteer</option>
+                        <option value="partner">Partner With Us</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+
+                    <br><br>
+                    <button class="btn" type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; Kick It On Foundation</p>
+        </div>
+    </footer>
+</body>
+
+</html>
