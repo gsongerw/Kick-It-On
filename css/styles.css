@@ -2,30 +2,15 @@
     box-sizing: border-box;
 }
 
-html {
-    overflow-x: hidden;
-}
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    max-width: 100%;
-    overflow-x: hidden;
 }
 
 img {
-    width: 100%;
     max-width: 100%;
     height: auto;
-    display: block;
-}
-
-/* Let image containers shrink in flex layout so images don't force full width on mobile */
-.hero-image,
-.split-media {
-    min-width: 0;
-    max-width: 100%;
 }
 
 .container {
@@ -108,12 +93,6 @@ a:hover {
     .section .container.split {
         display: flex;
         flex-direction: column;
-    }
-
-    /* Flex items must shrink so images don't force full width and cause zoom */
-    .hero .container > *,
-    .section .container.split > * {
-        min-width: 0;
     }
 
     .split-media {
