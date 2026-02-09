@@ -32,6 +32,9 @@ body {
 }
 
 .hero {
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
     background-color: #f0f0f0;
     padding: 3rem 0;
 }
