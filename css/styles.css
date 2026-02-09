@@ -27,33 +27,18 @@ body {
     text-decoration: none;
 }
 
-.main-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Hover effects for all links */
-.btn:hover {
-    opacity: 0.9;
-}
-
-.site-footer a:hover {
-    text-decoration: underline;
-}
-
-.footer-follow {
-    margin: 0.5rem 0;
-}
-
-.footer-follow a {
-    text-decoration: underline;
-}
-
-a.text-link:hover {
-    text-decoration: underline;
+.site-footer a {
+    text-decoration: none;
 }
 
 a:hover {
-    opacity: 0.9;
+    text-decoration: underline;
+    color: #8f00f5;
+}
+
+.main-nav a:hover,
+.site-footer a:hover {
+    color: #f5c400;
 }
 
 .hero {
@@ -83,6 +68,10 @@ a:hover {
     color: white;
     text-align: center;
     padding: 1rem;
+}
+
+.footer-follow {
+    margin: 0.5rem 0;
 }
 
 @media (max-width: 700px) {
