@@ -31,11 +31,38 @@ body {
     text-decoration: underline;
 }
 
+/* Hover effects for all links */
+.btn:hover {
+    opacity: 0.9;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-follow {
+    margin: 0.5rem 0;
+}
+
+.footer-follow a {
+    text-decoration: underline;
+}
+
+a.text-link:hover {
+    text-decoration: underline;
+}
+
+a:hover {
+    opacity: 0.9;
+}
+
 .hero {
     background-image: url('../images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     background-color: #f0f0f0;
+    min-height: 400px;
     padding: 3rem 0;
 }
 
